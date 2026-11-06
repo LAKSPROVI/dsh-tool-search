@@ -1,0 +1,28 @@
+{
+  "name": "dsh-tool-search",
+  "version": "0.1.0",
+  "description": "DeepSeek Harness plugin: load tool definitions on demand with tool_search so large MCP tool sets stay out of every model request.",
+  "type": "module",
+  "main": "index.mjs",
+  "exports": "./index.mjs",
+  "files": [
+    "index.mjs",
+    "README.md",
+    "README.pt-BR.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "node --test \"test/*.test.mjs\""
+  },
+  "keywords": [
+    "dsh-plugin",
+    "deepseek-harness",
+    "mcp",
+    "tool-search",
+    "cordis"
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": "^22.19 || >=24"
+  }
+}
